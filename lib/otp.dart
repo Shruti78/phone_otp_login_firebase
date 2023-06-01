@@ -2,6 +2,7 @@ import 'package:cits_worldwode/phone.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
+// ignore: unused_import
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:pinput/pinput.dart';
 
@@ -29,11 +30,13 @@ class _MyOTPState extends State<MyOTP> {
       ),
     );
 
+    // ignore: unused_local_variable
     final focusedPinTheme = defaultPinTheme.copyDecorationWith(
       border: Border.all(color: Color.fromRGBO(114, 178, 238, 1)),
       borderRadius: BorderRadius.circular(8),
     );
 
+    // ignore: unused_local_variable
     final submittedPinTheme = defaultPinTheme.copyWith(
       decoration: defaultPinTheme.decoration?.copyWith(
         color: Color.fromRGBO(234, 239, 243, 1),
